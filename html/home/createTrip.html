@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="../../public/navigation.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/home/home.css" />
+    <link rel="stylesheet" href="../../css/login & signup.css">
+    <title>Create Trip || Wasalni</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+
+            <div class="header-content">
+                <div class="logo">
+                    <h2>
+                        <a href="home.html">
+                            Wasalni
+                        </a>
+                    </h2>
+                </div>
+
+                <nav>
+                    <ul>
+                        <div class="profile-img"><a href="profile.html"></a></div>
+                        <li><a class="start-btn" href="homeContact.html">Contact</a></li>
+                        <li><button class="subscription start-btn">Premuim</button></li>
+                        <li><button class="logout start-btn">Logout</button></li>
+                        
+                    </ul>
+                </nav>
+
+                
+            </div>
+        </div>
+    </header> <!-- Header    -->
+
+    <div class="signup create-trip">
+        <div class="wrapper">
+            <h2>Create a new trip</h2>
+            <form class="signup-form" action="#">
+
+                <div class="input-box">
+                  <input type="text" id="starting-State" placeholder="Starting State" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="text" id="arrival-state" placeholder="Arrival state" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="text" id="starting-location" placeholder="Starting location" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="time" id="time" placeholder="Time" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="number" id="price" placeholder="Price" required>
+                </div>
+
+                <div class="input-box">
+                    <select id="user-type" required>
+                        <option value="" disabled selected style="display: none">Number of riders</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                    </select>
+                </div>
+
+                <div class="input-box">
+                    <select id="user-type" required>
+                        <option value="" disabled selected style="display: none">Select your type</option>
+                        <option value="driver">Driver</option>
+                        <option value="passenger">Passenger</option>
+                    </select>
+                </div>
+
+                <div class="input-box button">
+                    <input type="Submit" value="Register Now">
+                </div>
+                
+                <div class="err">
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script type="module" src="../../java script/home/user.js"></script>
+    <script type="module" src="../../java script/home/home.js"></script>
+    <script type="module" src="../../java script/home/createTrips.js"></script>
+</body>
+</html>

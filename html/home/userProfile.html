@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="../../public/navigation.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/home/home.css" />
+    <link rel="stylesheet" href="../../css/style.css">
+    <title>User Profile || Wasalni</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+
+            <div class="header-content">
+                <div class="logo">
+                    <h2>
+                        <a href="home.html">
+                            Wasalni
+                        </a>
+                    </h2>
+                </div>
+
+                <nav>
+                    <ul>
+                        <div class="profile-img"><a href=""></a></div>
+                        <li><a class="start-btn" href="homeContact.html">Contact</a></li>
+                        <li><button class="subscription start-btn">Premuim</button></li>
+                        <li><button class="logout start-btn">Logout</button></li>
+                        
+                    </ul>
+                </nav>
+
+                
+            </div>
+        </div>
+    </header> <!-- Header    -->
+
+    <section class="profile-info">
+        <div class="container">
+            <div class="profile-info-content">
+                <h1 class="profile-info-title">{ name from data base} informations</h1>
+                <div class="profile-info-item" style="display: flex; align-items: center; flex-direction: column;">
+                    <div class="profile-img-desc">
+                        <img src="" alt="profile">
+                    </div>
+                </div>
+                <div class="profile-info-item infos">
+                    <p class="profile-info-infos"><b>Your ID:</b> { uid from data base}</p>
+                    <p class="profile-info-infos"><b>Name:</b> { name from data base}</ </p>
+                    <p class="profile-info-infos"><b>Email:</b> { email}</ </p>
+                    <p class="profile-info-infos"><b>Type:</b> { type from data base}</ </p>
+                    <div class="like-or-dislike">
+                        <label for="like" style="display: inline-block;">Likes :</label>
+                        <i class='bx bxs-like' style="display: inline-block;" id="like"></i>
+                        <label class="like-count" style="display: inline-block;  margin-left: 40px;"></label>
+                    </div>
+                    <div class="like-or-dislike">
+                        <label for="dislike" style="display: inline-block;">disLikes :</label>
+                        <i class='bx bxs-dislike' style='display: inline-block; top: 4px;' id="dislike"></i>
+                        <label class="dislike-count" style="display: inline-block; margin-left: 40px;"></label>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <a href="createTrip.html" class="create-product-icon"><i class="bx bx-plus"></i></a>
+
+    <footer class="pd-y">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-item">
+                    <h2 class="footer-title">Wasalni</h2>
+                    <ul>
+                        <li><a href="#"><i class='bx bxl-facebook-circle' style="color: #212121; transition: color 0.5s;" onmouseover="this.style.color='#1877F2'" onmouseout="this.style.color='#212121'"></i></a></li>
+                        <li><a href="#"><i class='bx bxl-twitter' style="color: #212121; transition: color 0.5s;" onmouseover="this.style.color='#1DA1F2'" onmouseout="this.style.color='#212121'"></i></a></li>
+                        <li><a href="#"><i class='bx bxl-youtube' style="color: #212121; transition: color 0.5s;" onmouseover="this.style.color=' #FF0000'" onmouseout="this.style.color='#212121'"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-item">
+                    <h6 class="footer-item-title">Services</h6>
+                    <p class="footer-item-links"><a href="#">How it works</a></p>
+                    <p class="footer-item-links"><a href="#">Web Development</a></p>
+                    <p class="footer-item-links"><a href="#">Work & Portfolio</a></p>
+                    <p class="footer-item-links"><a href="#">SEO Backlinks</a></p>
+                    <p class="footer-item-links"><a href="#">SMM production</a></p>
+                    <p class="footer-item-links"><a href="#">Collaboration</a></p>
+                </div>
+
+                <div class="footer-item">
+                    <h6 class="footer-item-title">About</h6>
+                    <p class="footer-item-links"><a href="#">Our mission</a></p>
+                    <p class="footer-item-links"><a href="#">Our story</a></p>
+                    <p class="footer-item-links"><a href="#">Team Members</a></p>
+                    <p class="footer-item-links"><a href="#">Plan & Pricing</a></p>
+                    <p class="footer-item-links"><a href="#">Career</a></p>
+                    <p class="footer-item-links"><a href="#">Live Chat</a></p>
+                </div>
+
+                <div class="footer-item">
+                    <h6 class="footer-item-title">We accept all major credit cards for fast and easy payment.</h6>
+                    <p class="footer-item-links">hello@wasalni-team.com</p>
+                    <p class="footer-item-links" style="margin: 10px 0;">25 Rue sonatiba ,Khenchela.</p>
+                    <p class="footer-item-links">+213-795-24-13-82.</p>
+                    <img src="../../public/cards.webp" alt="cards" style="display: block; margin-top: 10px;">
+                </div>
+            </div>
+        </div>
+    </footer> <!-- Footer -->
+    
+    <script type="module" src="../../java script/home/user.js"></script>
+    <script type="module" src="../../java script/home/home.js"></script>
+    <script type="module" src="../../java script/home/userProfile.js"></script>
+</body>
